@@ -1,0 +1,10 @@
+
+An experimental build of the KissXML library for use with Nu.
+
+Built and tested on Mac OS 10.6 and Debian 5.
+
+KissXML was created by Robby Hanson and is described on his blog at http://deusty.blogspot.com/2008/09/nsxml-on-iphone.html
+
+The official source for KissXML is the Google code repository at http://code.google.com/p/kissxml.
+
+KissXML is released under the MIT License.
