@@ -1,7 +1,7 @@
 ;; test_read.nu
 ;;  tests for KissXML XML reading.
 ;;
-;;  Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+;;  Copyright (c) 2009 Tim Burks, Neon Design Technology, Inc.
 (load "KissXML")
 
 ;; ^%$#@! GNUstep. Or alternately, ^%$#@! Apple.
