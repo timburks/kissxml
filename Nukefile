@@ -42,20 +42,12 @@
 (compilation-tasks)
 (framework-tasks)
 
-
-(task "test" => "framework" is
-     (SH "nutest test/test_*.nu"))
-                     
 (task "default" => "framework")
 
 (task "clobber" => "clean" is
       (SH "rm -rf build")
       (SH "rm -rf #{@framework_dir}")
       (SH "rm -f example1"))
-
-(task "install" => "framework" is
-      (SH "sudo rm -rf /Library/Frameworks/#{@framework}.framework")
-      (SH "sudo cp -rp #{@framework}.framework /Library/Frameworks/#{@framework}.framework"))
 
 (task "example" is
       (SH "#{@cc} examples/example1.m -o example1 -lxml2 -I/usr/include/libxml2 -framework Cocoa -framework KissXML"))
